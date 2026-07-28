@@ -6,14 +6,14 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/07/28 17:59:22 by username         #+#    #+#              */
-/*   Updated: 2026/07/28 18:00:07 by username        ###   ########.fr        */
+/*   Updated: 2026/07/28 21:26:04 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_div_mod(int a, int b, int *div, int *mod)
 {
 	*div = a / b;
-	*mod = a % 10;
+	*mod = a % b;
 }
 
 // int	main(void)

@@ -6,7 +6,7 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/07/28 05:22:16 by username         #+#    #+#              */
-/*   Updated: 2026/07/28 17:46:24 by username        ###   ########.fr        */
+/*   Updated: 2026/07/28 20:51:16 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	ft_putnbr(int nb)
 	n = nb;
 	if (n == -2147483648)
 		write(1, "-2147483648", 11);
-	if (n < 0)
+	else if (n < 0)
 	{
 		ft_putchar('-');
 		n *= -1;

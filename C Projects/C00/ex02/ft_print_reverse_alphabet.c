@@ -6,7 +6,7 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/07/28 05:16:26 by username         #+#    #+#              */
-/*   Updated: 2026/07/28 05:16:57 by username        ###   ########.fr        */
+/*   Updated: 2026/07/28 20:49:46 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_print_reverse_alphabet(void)
 	char	letter;
 
 	letter = 'z';
-	while (letter <= 'a')
+	while (letter >= 'a')
 	{
 		write(1, &letter, 1);
 		letter--;

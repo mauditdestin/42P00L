@@ -1,30 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                       :::      ::::::::    */
-/*   ft_print_alphabet.c                               :+:      :+:    :+:    */
+/*   ft_print_comb.c                                   :+:      :+:    :+:    */
 /*                                                   +:+ +:+         +:+      */
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
-/*   Created: 2026/07/28 05:16:24 by username         #+#    #+#              */
-/*   Updated: 2026/07/28 05:16:49 by username        ###   ########.fr        */
+/*   Created: 2026/07/28 05:20:02 by username         #+#    #+#              */
+/*   Updated: 2026/07/28 05:20:48 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-void	ft_print_alphabet(void)
+void	ft_print_comb(void)
 {
-	char	letter;
-
-	letter = 'a';
-	while (letter <= 'z')
-	{
-		write(1, &letter, 1);
-		letter++;
-	}
+	int	a;
+	int	b;
+	int	c;
 }
 
-// int main() {
-//     ft_print_alphabet();
-//     return 0;
-// }
+int	main(void)
+{
+	ft_print_comb();
+	return (0);
+}
